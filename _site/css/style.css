@@ -55,14 +55,7 @@ hr {
 
 /* Headings */
 
-.logo a {
-    color: var(--color-2);
-    text-decoration: none;
-    font-size: var(--size-10);
-    font-weight: 500;
-}
-
-.logo a, .breadcrumb, h1, h2, h3, h4, h5, h6 {
+.breadcrumb, h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
@@ -126,7 +119,7 @@ img.xl {
 }
 
 .logo {
-    margin-top: var(--size-8);
+    margin-top: var(--size-6);
     padding: var(--size-8);
 }
 
@@ -199,9 +192,6 @@ footer {
         font-size: 1rem !important;
     }
 
-    .logo {
-        font-size: var(--size-10);
-    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -247,9 +237,6 @@ footer {
         font-size: 1.2rem !important;
     }
 
-    .logo {
-        font-size: var(--size-10);
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -295,9 +282,6 @@ footer {
         font-size: 1.2rem !important;
     }
 
-    .logo {
-        font-size: var(--size-9);
-    }
 }
 
 @media (min-width: 1200px) {
@@ -343,7 +327,4 @@ footer {
         font-size: 1.2rem !important;
     }
 
-    .logo {
-        font-size: var(--size-10);
-    }
 }
