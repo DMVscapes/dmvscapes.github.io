@@ -1,0 +1,16 @@
+# General
+title: DMVscapes
+description: Softscaping and hardscaping
+#baseurl: ""
+#url: ""
+
+# Build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: :title

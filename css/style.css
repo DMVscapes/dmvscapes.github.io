@@ -1,0 +1,145 @@
+/* Root settings */
+
+:root {
+    --color-1: #3333A3;
+    --color-2: #000000;
+    --color-3: #ffffff;
+    --font-1: "Open Sans", sans-serif;
+    --font-2: "Playfair Display", serif;
+    --font-3: "Playfair Display", serif;
+    --font-4: "Playfair Display", serif;
+    --font-5: "Playfair Display", serif;
+    --size-1: 0;
+    --size-2: 0.0625rem;
+    --size-3: .25rem;
+    --size-4: .5rem;
+    --size-5: .625rem;
+    --size-6: 1rem;
+    --size-7: 1.2rem;
+    --size-8: 1.5rem;
+    --size-9: 2.5rem;
+    --size-10: 3rem;
+    --size-11: 4rem;
+    --size-12: 10rem;
+    --size-13: 12.5rem;
+    --size-14: 15rem;
+    --size-15: 18.75rem;
+    --size-16: 27rem;
+}
+
+/* General */
+
+body {
+    background-color: var(--color-4);
+}
+
+body {
+    color: var(--color-2);
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--size-8);
+}
+
+a, a:visited, a:hover {
+    color: var(--color-1);
+    text-decoration: underline;
+}
+
+ul {
+    padding-bottom: var(--size-10);
+}
+
+hr {
+    border: solid var(--size-3) var(--color-2);
+    margin-bottom: var(--size-10);
+}
+
+/* Headings */
+
+.logo a {
+    color: var(--color-2);
+    text-decoration: none;
+    font-size: var(--size-10);
+    font-weight: 500;
+}
+
+.logo a, .breadcrumb, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: var(--size-11);
+    margin-bottom: var(--size-2);
+    padding-bottom: var(--size-6);
+    padding-top: var(--size-7);
+}
+
+h2 {
+    font-size: var(--size-10);
+    padding-bottom: var(--size-6);
+}
+
+h3 {
+    font-size: var(--size-9);
+    padding-bottom: var(--size-6);
+}
+
+h4 {
+    font-size: var(--size-8);
+    padding-bottom: var(--size-6);
+    padding-top: var(--size-6);
+}
+
+/* Jumbotron */
+
+.lead {
+    font-family: var(--font-1);
+    font-size: var(--size-8);
+    font-weight: 400;
+}
+
+/* Images */
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+img.xs {
+    width: var(--size-11);
+}
+
+img.sm {
+    width: var(--size-13);
+}
+
+img.md {
+    width: var(--size-14);
+}
+
+img.lg {
+    width: var(--size-15);
+}
+
+img.xl {
+    width: var(--size-16);
+}
+
+.logo {
+    margin-top: var(--size-8);
+    padding: var(--size-8);
+}
+
+/* Section */
+
+.section {
+    border: solid var(--color-2) var(--size-4);
+    border-radius: var(--size-5);
+    margin-bottom: var(--size-8);
+    padding: var(--size-8);
+    width: 95%;
+}
+
+footer {
+    font-size: var(--size-6);
+}
