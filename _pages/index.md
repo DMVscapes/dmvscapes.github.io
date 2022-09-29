@@ -1,7 +1,7 @@
 ---
 layout: home
 short: "true"
-title: "DMVscapes"
+title: "DMV Scapes"
 description: Softscaping and hardscaping
 about: 
 ---

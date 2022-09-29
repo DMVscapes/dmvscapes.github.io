@@ -328,3 +328,13 @@ footer {
     }
 
 }
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.img-rounded {
+    border: solid .5rem var(--color-2);
+    border-radius: 5px;
+}
